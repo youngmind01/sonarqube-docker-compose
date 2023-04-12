@@ -5,6 +5,7 @@ Port 9000 is opened in security firewall rule
 sudo vi /etc/sysctl.conf
 
 #Add the following lines to the bottom of that file:
+
 vm.max_map_count=262144
 fs.file-max=65536
 
